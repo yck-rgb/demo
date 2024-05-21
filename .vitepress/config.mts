@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:"/demo/",
   title: "cesium-demo",
   description: "用于展示cesiumjs项目的demo",
   themeConfig: {
