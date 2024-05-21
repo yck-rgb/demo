@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build && node ./build/move-docs.js",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.27"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "vitepress": "^1.2.0"
+  }
+}
