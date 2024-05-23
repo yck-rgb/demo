@@ -1,3 +1,2 @@
 ## 
-
-<a href="https://yck-rgb.github.io/demo/" target="_blank">preview</a>
+[preview](https://yck-rgb.github.io/demo/)

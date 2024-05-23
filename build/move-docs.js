@@ -5,4 +5,4 @@ const sourceDir="./.vitepress/dist"
 fs.ensureDirSync(dir);
 
 fs.copySync(sourceDir, dir,{overwrite: true});
-console.log("移动成功");
+console.log("复制成功");

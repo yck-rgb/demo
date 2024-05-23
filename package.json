@@ -1,14 +1,25 @@
 {
+  "type": "module",
   "scripts": {
+    "dev": "vitepress dev",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build && node ./build/move-docs.js",
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "element-plus": "^2.7.3",
+    "highlight.js": "^11.9.0",
     "vue": "^3.4.27"
   },
   "devDependencies": {
     "fs-extra": "^11.2.0",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-element-plus": "^0.8.0",
+    "unplugin-vue-components": "^0.27.0",
+    "vite-plugin-css": "^1.0.4",
     "vitepress": "^1.2.0"
   }
 }
