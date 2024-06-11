@@ -1,9 +1,9 @@
 import {
   require_core
-} from "./chunk-QBUCOSKH.js";
+} from "./chunk-DPO2FPPP.js";
 import {
   __toESM
-} from "./chunk-LQ2VYIYD.js";
+} from "./chunk-CEQRFMJQ.js";
 
 // node_modules/highlight.js/es/core.js
 var import_core = __toESM(require_core());

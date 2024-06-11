@@ -1,4 +1,4 @@
-import "./chunk-LQ2VYIYD.js";
+import "./chunk-CEQRFMJQ.js";
 
 // node_modules/highlight.js/es/languages/javascript.js
 var IDENT_RE = "[A-Za-z$_][0-9A-Za-z$_]*";

@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev",
+    "dev": "vitepress dev --host",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build && node ./build/move-docs.js",
     "docs:preview": "vitepress preview"
@@ -9,16 +9,26 @@
   "dependencies": {
     "@ffmpeg/ffmpeg": "^0.12.10",
     "@ffmpeg/util": "^0.12.1",
+    "@turf/turf": "^6.5.0",
     "@vitejs/plugin-vue": "^5.0.4",
+    "axios": "^1.7.2",
+    "cesium": "^1.117.0",
+    "d3": "^7.9.0",
+    "echarts": "^5.5.0",
     "element-plus": "^2.7.3",
     "highlight.js": "^11.9.0",
+    "html2canvas": "^1.4.1",
+    "lodash": "^4.17.21",
+    "three": "^0.164.1",
     "vue": "^3.4.27"
   },
   "devDependencies": {
     "fs-extra": "^11.2.0",
+    "sass": "^1.77.2",
     "unplugin-auto-import": "^0.17.6",
     "unplugin-element-plus": "^0.8.0",
     "unplugin-vue-components": "^0.27.0",
+    "vite-plugin-cesium": "^1.2.22",
     "vite-plugin-css": "^1.0.4",
     "vitepress": "^1.2.0"
   }

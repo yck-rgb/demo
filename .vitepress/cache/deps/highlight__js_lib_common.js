@@ -1,10 +1,10 @@
 import {
   require_core
-} from "./chunk-QBUCOSKH.js";
+} from "./chunk-DPO2FPPP.js";
 import {
   __commonJS,
   __toESM
-} from "./chunk-LQ2VYIYD.js";
+} from "./chunk-CEQRFMJQ.js";
 
 // node_modules/highlight.js/lib/languages/xml.js
 var require_xml = __commonJS({

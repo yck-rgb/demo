@@ -1,0 +1,1 @@
+import{aw as e,q as a,p as t,aR as r}from"./chunks/framework.BaQPFwRT.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md","lastUpdated":null}'),s={name:"README.md"},o=r("",4),i=[o];function c(n,_,l,d,h,p){return t(),a("div",null,i)}const f=e(s,[["render",c]]);export{m as __pageData,f as default};

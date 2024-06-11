@@ -3,6 +3,8 @@ import juejinSvg from "./svgs/juejin";
 import { nav, sidebar } from "./pages";
 import Components from "unplugin-vue-components/vite";
 import AutoImport from "unplugin-auto-import/vite"
+import path from "path"
+import cesium from "vite-plugin-cesium"
 
 const base = "/demo/";
 // https://vitepress.dev/reference/site-config
@@ -15,6 +17,7 @@ export default async () => {
     head: [["link", { rel: "icon", href: base + "/logo.svg" }]],
     vite: {
       plugins: [
+        cesium(),
         AutoImport({
           include: [
             /\.[tj]sx?$/, // .ts, .tsx, .js, .jsx
@@ -46,7 +49,7 @@ export default async () => {
     vue: {
       // @vitejs/plugin-vue 选项
     },
-    // lastUpdated: true,
+    lastUpdated: true,
     // cleanUrls: true,
     // metaChunk: true,
     themeConfig: {
